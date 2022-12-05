@@ -4,3 +4,23 @@ button {
     height: 100%;
     font-size: 30px;
 }
+
+.hole {
+    width: 400px;
+    margin-left: 200px;
+    margin-top: -700px;
+}
+
+.pipe {
+    animation: move 2s; 
+} 
+
+
+@keyframes move{
+    from {
+       transform: translateX(0);
+    }
+    to {
+       transform: translateX(80%);
+    }
+}
