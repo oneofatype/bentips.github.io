@@ -110,6 +110,10 @@ header.shadow .logo {
     font-size: 3rem;
 }
 
+.home-title span {
+    color: var(--second-color);
+}
+
 .home-subtitle {
     font-size: 1rem;
     font-weight: 400;
