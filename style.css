@@ -1,0 +1,33 @@
+button {
+    margin-top: 10px;
+    width: 26%;
+    height: 100%;
+    font-size: 30px;
+}
+
+.hole {
+    width: 400px;
+    margin-left: 200px;
+    margin-top: -700px;
+}
+
+.pipe {
+    /* animation: move 2s;  */
+    transition: 710ms;
+    width: 600px;
+}
+
+.move {
+    animation: move 2s ease-in-out;
+}
+
+@keyframes move{
+     50% {
+        transform: translateX(73%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
